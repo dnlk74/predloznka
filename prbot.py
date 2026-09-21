@@ -36,7 +36,7 @@ for pair in _editors_raw.split(','):
 CHANNEL_URL = os.getenv('CHANNEL_URL')
 CHANNEL_NAME = os.getenv('CHANNEL_NAME')
 
-COOLDOWN_SECONDS = 30
+COOLDOWN_SECONDS = 3600
 BANS_PER_PAGE = 10
 BLACKLIST_FILE = 'blacklist.json'
 
