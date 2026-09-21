@@ -1,0 +1,21 @@
+# Секреты
+.env
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Данные бота (у каждого своя база банов)
+blacklist.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
